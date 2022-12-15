@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>New product was added!</h1>
+    <p th:text="'id: ' + ${product.id}" />
+    <p th:text="'title: ' + ${product.title}" />
+    <p th:text="'price: ' + ${product.price}" />
+    </br>
+    <h3><a href="/products">See the list of all products</a></h3>
+</body>
+</html>
